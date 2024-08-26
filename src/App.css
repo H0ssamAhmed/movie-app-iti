@@ -1,0 +1,31 @@
+::selection {
+  color: black;
+  background-color: white;
+  font-weight: 900;
+}
+
+.Landing-page {
+  height: 50vh;
+  background-image: url("./assets/landing-bg.png");
+  background-repeat: no-repeat;
+
+}
+
+body {
+  background-color: black;
+  color: white;
+}
+
+.rotaion svg {
+  animation: rotationIcon 5s linear infinite;
+}
+
+@keyframes rotaionIcon {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
